@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sign up</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,500;0,600;0,700;0,800;1,400&family=PT+Sans&family=Pacifico&family=Poppins:wght@200;400;600;800&family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/all.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/query.css" />
+  </head>
+  <body>
+    <section id="demo" class="interface">
+      <div class="container my-5 text-center">
+        <div class="group m-auto w-75 p-5 shadow-lg">
+          <h1 class="smart">Smart Login System</h1>
+          <input
+            id="signUpName"
+            class="form-control my-3"
+            placeholder="Enter your Name"
+            type="text"
+          />
+          <p id="regex" class=""></p>
+          <input
+            id="signUpEmail"
+            class="form-control my-3"
+            placeholder="Enter your email"
+            type="text"
+          />
+          <p id="regex1" class=""></p>
+          <input
+            id="signUpPassword"
+            class="form-control my-3"
+            placeholder="Enter your password"
+            type="password"
+          />
+
+          <p id="AllInputRequierd" class=""></p>
+          <button onclick="mainSignUP()" class="btn btn-secondary w-100 my-3">
+            sign up
+          </button>
+          <p class="text-secondary-emphasis">
+            Don’t have an account?
+            <a class="text-secondary-emphasis" href="../index.html">Sign in</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/main.js"></script>
+  </body>
+</html>

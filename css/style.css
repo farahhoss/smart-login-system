@@ -1,0 +1,20 @@
+* {
+  font-family: "PT Sans", sans-serif;
+  background: #4f6f52;
+  font-family: "Titillium Web", sans-serif;
+}
+#demo {
+  color: black;
+  min-height: 100vh;
+  background: #4f6f52;
+}
+::selection {
+  background-color: #fec260;
+  color: #352e28;
+}
+.smart {
+  color: #ece3ce;
+}
+#Hello {
+  color: #ece3ce;
+}
